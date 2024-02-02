@@ -6,7 +6,7 @@
 }
 
 iframe{
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
@@ -17,4 +17,7 @@ h1{
 
 body{
     background-color: rgb(247, 156, 197);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
